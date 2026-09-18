@@ -1,0 +1,27 @@
+ACORDE A LOS AVANCES DEL INFORME HASTA LA FECHA DEL ARCHIVO
+
+Identificación actores:
+Recepcionista (Personal de recepción): Encargado de la operación diaria
+(check-in, check-out, registro de huéspedes, revisión de disponibilidad).
+
+Administrador (Gerencia/Administración): Encargado de la configuración del sistema,
+gestión de usuarios, visualización de informes y emisión de autorizaciones.
+
+Identificación de Casos de Uso
+
+Para el Recepcionista:
+Consultar Disponibilidad: Ver el mapa visual con el estado de las habitaciones (RF2).
+Registrar Huésped: Ingresar RUT, nombre y teléfono del pasajero (RF1).
+Realizar Check-in: Asignar habitación, registrar fecha de entrada y salida (RF3).
+Realizar Check-out: Liberar la habitación y procesar la salida.
+Gestionar Reservas: Administrar las reservas previas al check-in.
+Acceder a Datos Sensibles: Ingresar a módulos restringidos utilizando un código (RNF2).
+
+Para el Administrador:
+Gestionar Usuarios: Crear, editar o eliminar cuentas de recepcionistas y administradores.
+Gestionar Habitaciones: Registrar las características (capacidad, orientación).
+Generar Informes: Extraer reportes de ocupación y reservas.
+Emitir Código de Autorización: Generar la clave para que recepción acceda a datos sensibles.
+Casos de uso del Sistema (Internos/Incluidos):
+Calcular Costos de Estadía: Cálculo automático que se dispara durante el Check-out.
+
